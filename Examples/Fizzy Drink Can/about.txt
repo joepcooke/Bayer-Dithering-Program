@@ -1,0 +1,5 @@
+The original photo was taken in my back garden, and is of a fizzy drink originating in Brazil called Guarana, with some filters already applied to enhance its overall brightness. The filter applied adds noise to the image using the 16x16 matrix size, then converts it such that each pixel is one of four colours that were used for the original Gameboy handheld. The colour each pixel becomes is whichever its original colour (after noise is added) is closest to in terms of Euclidean distance*. This filter is referred to as 'gameboy.txt' in the 'Palettes' folder. If you wish to experiment with this filter yourself and want it to look more 'retro', I would recommend using lower resolution/compressed images as the noise is a lot more noticeable.
+
+
+
+*Imagine their red, green and blue values as points in 3D space, then compare the distances of the lines joining the original colour and the four new possible colours. 

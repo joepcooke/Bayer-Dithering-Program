@@ -1,0 +1,5 @@
+The original photo was taken in the Meadows area of Edinburgh during cherry blossom season. The filter applied adds noise to the image using the 16x16 matrix size, then converts it such that each pixel is one of only two colours, a purple-ish black and its complement, a green-ish white. The colour each pixel becomes is whichever its original colour (after noise is added) is closest to in terms of Euclidean distance*. This filter is referred to as 'one_bit_purple.txt' in the 'Palettes' folder.
+
+
+
+*Imagine their red, green and blue values as points in 3D space, then compare the distances of the lines joining the original colour and the two new possible colours.
