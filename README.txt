@@ -1,3 +1,9 @@
+IMPORTANT: It is recommended you download the reference 'Filtered Images' as there are some strange effects when viewing them through Github's in-built image view.
+
+--------------------------------------------------------------------------------------------------------------
+
+ABOUT:
+
 This program filters images by applying the Bayer dithering technique, then converting it to a chosen colour palette.
 
 In order for this program to function correctly you should (?) unzip the file, and you must have a Python environment installed. In addition, please install the following modules:
@@ -29,12 +35,14 @@ Reference Images
 Bayer Dithering Program, v1.0.py
 README.txt
 
+--------------------------------------------------------------------------------------------------------------
 
-USING THE PROGRAM
+USING THE PROGRAM:
 
 Add any images you would like to use into the 'Reference Images' folder. These *must* be JPG images. Then, follow the program instructions to filter the image. A greater selection of palettes than those mentioned in the program interface can be found by looking in the 'Palettes' folder.
 
+--------------------------------------------------------------------------------------------------------------
 
+TIP: 
 
-
-TIP: for the GameBoy filter, compressed images tend to give off a more noticeable dithering effect, which the GameBoy style lends itself to (in my opinion).
+For the GameBoy filter, compressed images tend to give off a more noticeable dithering effect, which the GameBoy style lends itself to (in my opinion).
